@@ -1,0 +1,195 @@
+FILE = "Master\\Master.ab";
+CAPTION = "MC12";
+COMMENT = "Master";
+FUNCTION = "MC12M";
+LEVEL = DEVICE;
+UNDERLEVEL = PROJECT;
+CONTAINER = TRUE;
+MODEL = FALSE;
+LIST = TRUE;
+ARRAY = AI{
+IO = INPUT;
+VISIBLE = TRUE;
+COMMENT = "Аналоговый вход";
+DIM = 8;
+DIMMIN = 0;
+DIMMAX = 0;
+TYPE = FLOAT;
+}
+ARRAY = DI{
+IO = INPUT;
+VISIBLE = TRUE;
+COMMENT = "Цифровой вход";
+DIM = 4;
+DIMMIN = 0;
+DIMMAX = 0;
+TYPE = BOOL;
+}
+ARRAY = AO{
+IO = OUTPUT;
+VISIBLE = TRUE;
+COMMENT = "Аналоговый выход";
+DIM = 4;
+DIMMIN = 0;
+DIMMAX = 0;
+TYPE = FLOAT;
+}
+ARRAY = DO{
+IO = OUTPUT;
+VISIBLE = TRUE;
+COMMENT = "Цифровой выход";
+DIM = 8;
+DIMMIN = 0;
+DIMMAX = 0;
+TYPE = BOOL;
+}
+ARRAY = II{
+IO = INPUT;
+VISIBLE = TRUE;
+COMMENT = "Целый вход";
+DIM = 0;
+DIMMIN = 0;
+DIMMAX = 0;
+TYPE = INT;
+}
+ARRAY = IO{
+IO = OUTPUT;
+VISIBLE = TRUE;
+COMMENT = "Целый выход";
+DIM = 0;
+DIMMIN = 0;
+DIMMAX = 0;
+TYPE = INT;
+}
+ARRAY = TI{
+IO = INPUT;
+VISIBLE = TRUE;
+COMMENT = "Вход время";
+DIM = 0;
+DIMMIN = 0;
+DIMMAX = 0;
+TYPE = TIME;
+}
+ARRAY = TO{
+IO = OUTPUT;
+VISIBLE = TRUE;
+COMMENT = "Выход время";
+DIM = 0;
+DIMMIN = 0;
+DIMMAX = 0;
+TYPE = TIME;
+}
+ARRAY = DATI{
+IO = INPUT;
+VISIBLE = TRUE;
+COMMENT = "Вход дата";
+DIM = 0;
+DIMMIN = 0;
+DIMMAX = 0;
+TYPE = DATE;
+}
+ARRAY = DATO{
+IO = OUTPUT;
+VISIBLE = TRUE;
+COMMENT = "Выход дата";
+DIM = 0;
+DIMMIN = 0;
+DIMMAX = 0;
+TYPE = DATE;
+}
+TERMINAL = 0{
+NAME = "AI.1";
+ARRAY = "AI";
+}
+TERMINAL = 1{
+NAME = "AI.2";
+ARRAY = "AI";
+}
+TERMINAL = 2{
+NAME = "AI.3";
+ARRAY = "AI";
+}
+TERMINAL = 3{
+NAME = "AI.4";
+ARRAY = "AI";
+}
+TERMINAL = 4{
+NAME = "AI.5";
+ARRAY = "AI";
+}
+TERMINAL = 5{
+NAME = "AI.6";
+ARRAY = "AI";
+}
+TERMINAL = 6{
+NAME = "AI.7";
+ARRAY = "AI";
+}
+TERMINAL = 7{
+NAME = "AI.8";
+ARRAY = "AI";
+}
+TERMINAL = 8{
+NAME = "DI.1";
+ARRAY = "DI";
+}
+TERMINAL = 9{
+NAME = "DI.2";
+ARRAY = "DI";
+}
+TERMINAL = 10{
+NAME = "DI.3";
+ARRAY = "DI";
+}
+TERMINAL = 11{
+NAME = "DI.4";
+ARRAY = "DI";
+}
+TERMINAL = 12{
+NAME = "AO.1";
+ARRAY = "AO";
+}
+TERMINAL = 13{
+NAME = "AO.2";
+ARRAY = "AO";
+}
+TERMINAL = 14{
+NAME = "AO.3";
+ARRAY = "AO";
+}
+TERMINAL = 15{
+NAME = "AO.4";
+ARRAY = "AO";
+}
+TERMINAL = 16{
+NAME = "DO.1";
+ARRAY = "DO";
+}
+TERMINAL = 17{
+NAME = "DO.2";
+ARRAY = "DO";
+}
+TERMINAL = 18{
+NAME = "DO.3";
+ARRAY = "DO";
+}
+TERMINAL = 19{
+NAME = "DO.4";
+ARRAY = "DO";
+}
+TERMINAL = 20{
+NAME = "DO.5";
+ARRAY = "DO";
+}
+TERMINAL = 21{
+NAME = "DO.6";
+ARRAY = "DO";
+}
+TERMINAL = 22{
+NAME = "DO.7";
+ARRAY = "DO";
+}
+TERMINAL = 23{
+NAME = "DO.8";
+ARRAY = "DO";
+}

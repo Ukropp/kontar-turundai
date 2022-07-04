@@ -1,0 +1,99 @@
+FILE = "СПГ\\СПГ.ab";
+CAPTION = "СПГ761 ТРУБ";
+COMMENT = "СПГ";
+FUNCTION = "Spg761Trub";
+LEVEL = DEVICE;
+UNDERLEVEL = DEVICE;
+CONTAINER = TRUE;
+MODEL = FALSE;
+LIST = FALSE;
+ARRAY = AINP{
+IO = INPUT;
+VISIBLE = TRUE;
+COMMENT = "Аналоговый вход";
+DIM = 0;
+DIMMIN = 0;
+DIMMAX = 0;
+TYPE = FLOAT;
+}
+ARRAY = AOUT{
+IO = OUTPUT;
+VISIBLE = TRUE;
+COMMENT = "Аналоговый выход";
+DIM = 6;
+DIMMIN = 0;
+DIMMAX = 0;
+TYPE = FLOAT;
+}
+ARRAY = DOUT{
+IO = OUTPUT;
+VISIBLE = TRUE;
+COMMENT = "Цифровой выход";
+DIM = 3;
+DIMMIN = 0;
+DIMMAX = 0;
+TYPE = BOOL;
+}
+ARRAY = IINP{
+IO = INPUT;
+VISIBLE = TRUE;
+COMMENT = "Целый вход";
+DIM = 0;
+DIMMIN = 0;
+DIMMAX = 0;
+TYPE = INT;
+}
+ARRAY = IOUT{
+IO = OUTPUT;
+VISIBLE = TRUE;
+COMMENT = "Целый выход";
+DIM = 0;
+DIMMIN = 0;
+DIMMAX = 0;
+TYPE = INT;
+}
+ARRAY = TINP{
+IO = INPUT;
+VISIBLE = TRUE;
+COMMENT = "Время вход";
+DIM = 0;
+DIMMIN = 0;
+DIMMAX = 0;
+TYPE = TIME;
+}
+ARRAY = TOUT{
+IO = OUTPUT;
+VISIBLE = TRUE;
+COMMENT = "Время выход";
+DIM = 0;
+DIMMIN = 0;
+DIMMAX = 0;
+TYPE = TIME;
+}
+ARRAY = DATIN{
+IO = INPUT;
+VISIBLE = TRUE;
+COMMENT = "Дата вход";
+DIM = 0;
+DIMMIN = 0;
+DIMMAX = 0;
+TYPE = DATE;
+}
+ARRAY = DATOUT{
+IO = OUTPUT;
+VISIBLE = TRUE;
+COMMENT = "Дата выход";
+DIM = 0;
+DIMMIN = 0;
+DIMMAX = 0;
+TYPE = DATE;
+}
+ARRAY = DINP{
+IO = INPUT;
+VISIBLE = TRUE;
+COMMENT = "Цифровой вход";
+DIM = 3;
+DIMMIN = 0;
+DIMMAX = 0;
+TYPE = BOOL;
+}
