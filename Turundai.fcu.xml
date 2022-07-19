@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='Windows-1251' ?>
+<Project>
+<Name>Turundai</Name>
+<MasterDevice>0</MasterDevice>
+<Device>
+<Number>1</Number>
+<Name>Master</Name>
+<AlarmList></AlarmList></Device>
+<Session></Session></Project>
